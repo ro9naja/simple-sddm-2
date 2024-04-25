@@ -22,7 +22,7 @@ Column {
     Label {
         id: timeLabel
         anchors.horizontalCenter: parent.horizontalCenter
-        font.pointSize: root.font.pointSize * 9
+        font.pointSize: root.font.pointSize * 3
         font.bold: true
         color: root.palette.text
         renderType: Text.QtRendering
