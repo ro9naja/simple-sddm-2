@@ -20,17 +20,16 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 </center>
 
 ## Install
-### From sources
 > _Assumes that you've installed and configured SDDM correctly_ (if not [read more](https://wiki.archlinux.org/title/SDDM))
 
 >  Please make sure you have the following dependencies installed:
-- ` For Arch Linux`
+- [`For Arch Linux`]
 `qt6-5compat` `qt6-declarative` `qt6-svg` `sddm` 
 
-- ` For Fedora 40 `
+- [`For Fedora Linux`]
 `qt6-qt5compat` `qt6-declarative` `qt6-qtsvg` `sddm` 
 
-- `For OpenSuse TW`
+- [`For OpenSuse TW`]
 `qt6-qt5compat` `qt6-declarative` `qt6-svg` `sddm` 
 
 ## Configure
