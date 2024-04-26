@@ -23,7 +23,6 @@ Column {
         id: timeLabel
         anchors.horizontalCenter: parent.horizontalCenter
         font.pointSize: root.font.pointSize * 3
-        font.bold: true
         color: root.palette.text
         renderType: Text.QtRendering
         function updateTime() {
@@ -36,7 +35,6 @@ Column {
         anchors.horizontalCenter: parent.horizontalCenter
         color: root.palette.text
         font.pointSize: root.font.pointSize * 2
-        font.bold: true
         renderType: Text.QtRendering
         function updateTime() {
             text = new Date().toLocaleDateString(Qt.locale(config.Locale), config.DateFormat == "short" ? Locale.ShortFormat : config.DateFormat !== "" ? config.DateFormat : Locale.LongFormat)
