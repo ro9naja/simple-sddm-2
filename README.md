@@ -30,7 +30,7 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 `qt6-qt5compat` `qt6-declarative` `qt6-qtsvg` `sddm` 
 
 - [`For OpenSuse TW`]
-`qt6-qt5compat` `qt6-declarative` `qt6-svg` `sddm` 
+`qt6-qt5compat` `qt6-declarative` `qt6-svg` `sddm-qt6` 
 
 ## Configure
 
