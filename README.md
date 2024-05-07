@@ -27,7 +27,7 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 `qt6-5compat` `qt6-declarative` `qt6-svg` `sddm` 
 
 - [`For Fedora Linux`]
-`qt6-qt5compat` `qt6-declarative` `qt6-qtsvg` `sddm` 
+`qt6-qt5compat` `qt6-qtdeclarative` `qt6-qtsvg` `sddm` 
 
 - [`For OpenSuse TW`]
 `qt6-qt5compat` `qt6-declarative` `qt6-svg` `sddm-qt6` 
