@@ -1,7 +1,6 @@
 <h2 align="center">🗼 Simple SDDM Theme 2 - QT6 🗼</h2>
 
 <h1 align="center"> This will be the SDDM theme to be installed in my Hyprland Scripts</h1>
-<h1 align="center"> Not my own work. See below `Credits` for link of original author </h1>
 
 <p align=center>
 A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
@@ -55,6 +54,6 @@ sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf  # use any text editor w
 (blur, form position, etc).
 
 ## Credits
-- Full credit goes to original autor [`LINK`](https://github.com/Keyitdev/sddm-astronaut-theme) by [**Keyitdev**](https://github.com/Keyitdev)
+- Theme is based on [`LINK`](https://github.com/Keyitdev/sddm-astronaut-theme) by [**Keyitdev**](https://github.com/Keyitdev)
 
 
