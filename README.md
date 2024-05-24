@@ -1,6 +1,6 @@
 <h2 align="center">🗼 Simple SDDM Theme 2 - QT6 🗼</h2>
 
-<h1 align="center"> This will be the SDDM theme to be installed in my Hyprland Scripts</h1>
+<h1 align="center"> This will be the SDDM version 2 theme to be installed in my Hyprland Scripts</h1>
 
 <p align=center>
 A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
@@ -33,10 +33,10 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 
 ## Configure
 
-Edit the `/etc/sddm.conf.d/10-theme.conf` (with any text editor with **raised** privileges), so that it looks like this:
+Edit the or create if it does not exist `/etc/sddm.conf.d/theme.conf.user` (with any text editor with **raised** privileges), so that it looks like this:
 
 ```bash
-sudo nano /etc/sddm.conf.d/10-theme.conf  # use any text editor with raised privileges
+sudo nano /etc/sddm.conf.d/theme.conf.user # use any text editor with raised privileges
 ---
 
 [Theme]
