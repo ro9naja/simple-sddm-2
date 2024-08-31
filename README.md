@@ -49,7 +49,10 @@ Current=simple-sddm-2
 sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf  # use any text editor with raised privileges
 ```
 - `HourFormat="hh:mm AP` . Make sure to disable the above of this part
-- To change the default wallpaper put desired image in the `simple-sddm/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+
+### 🖼️ Default SDDM background
+- To change the default background, put desired image in the `simple-sddm/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+
 - You can also customize it further if you wish in the `theme.conf`
 (blur, form position, etc).
 
