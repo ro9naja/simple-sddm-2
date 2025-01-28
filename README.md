@@ -4,15 +4,15 @@
 A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
 </p>
 
-<h2 align=center>Preview (Using sddm-greeter-qt6 --test-mode)</h2>
+<h2 align=center>Preview (Using sddm-greeter-qt6 --test-mode --themes)</h2>
 <center>
-<img src="./Previews/1.png" alt="preview-1">
+<img src="./Previews/prvw_00.png" alt="preview-0">
 <details>
 <summary align=center>More Previews</summary>
-<img src="./Previews/2.png" alt="preview-2">
-<img src="./Previews/3.png" alt="preview-4">
-<img src="./Previews/4.png" alt="preview-3">
-<img src="./Previews/5.png" alt="preview-5">
+<img src="./Previews/prvw_01.png" alt="preview-1">
+<img src="./Previews/prvw_02.png" alt="preview-2">
+<img src="./Previews/prvw_03.png" alt="preview-3">
+<img src="./Previews/prvw_04.png" alt="preview-4">
 </details>
 </center>
 
