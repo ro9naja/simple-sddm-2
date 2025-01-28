@@ -10,7 +10,7 @@ import Qt5Compat.GraphicalEffects
 Item {
     id: sessionButton
     height: root.font.pointSize
-    width: parent.width / 2
+    width: parent.width * 0.618
     anchors.horizontalCenter: parent.horizontalCenter
     property var selectedSession: selectSession.currentIndex
     property string textConstantSession

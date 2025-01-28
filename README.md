@@ -1,12 +1,10 @@
 <h2 align="center">🗼 Simple SDDM Theme 2 - QT6 🗼</h2>
 
-<h1 align="center"> This will be the SDDM version 2 theme to be installed in my Hyprland Scripts</h1>
-
 <p align=center>
 A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
 </p>
 
-<h2 align=center>Preview</h2>
+<h2 align=center>Preview (Using sddm-greeter-qt6 --test-mode)</h2>
 <center>
 <img src="./Previews/1.png" alt="preview-1">
 <details>
@@ -23,13 +21,13 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 
 >  Please make sure you have the following dependencies installed:
 - [`For Arch Linux`]
-`qt6-5compat` `qt6-declarative` `qt6-svg` `sddm` 
+`qt6-5compat` `qt6-declarative` `qt6-svg` `sddm`
 
 - [`For Fedora Linux`]
-`qt6-qt5compat` `qt6-qtdeclarative` `qt6-qtsvg` `sddm` 
+`qt6-qt5compat` `qt6-qtdeclarative` `qt6-qtsvg` `sddm`
 
 - [`For OpenSuse TW`]
-`qt6-qt5compat` `qt6-declarative` `qt6-svg` `sddm-qt6` 
+`qt6-qt5compat` `qt6-declarative` `qt6-svg` `sddm-qt6`
 
 ## Configure
 

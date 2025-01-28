@@ -11,7 +11,7 @@ Item {
     id: usernameField
 
     height: root.font.pointSize * 4.5
-    width: parent.width / 2
+    width: parent.width * .618
     anchors.horizontalCenter: parent.horizontalCenter
 
     property var selectedUser: selectUser.currentIndex

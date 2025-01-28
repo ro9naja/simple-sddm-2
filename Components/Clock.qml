@@ -9,11 +9,11 @@ import QtQuick.Controls 2.15
 Column {
     id: clock
     spacing: 0
-    width: parent.width / 2
+    width: parent.width * 0.764
 
     Label {
         anchors.horizontalCenter: parent.horizontalCenter
-        font.pointSize: config.HeaderText !=="" ? root.font.pointSize * 3 : 0
+        font.pointSize: config.HeaderText !=="" ? root.font.pointSize * 4.236 : 0
         color: root.palette.text
         renderType: Text.QtRendering
         text: config.HeaderText
@@ -22,7 +22,7 @@ Column {
     Label {
         id: timeLabel
         anchors.horizontalCenter: parent.horizontalCenter
-        font.pointSize: root.font.pointSize * 3
+        font.pointSize: root.font.pointSize * 2.618
         color: root.palette.text
         renderType: Text.QtRendering
         function updateTime() {
@@ -34,7 +34,7 @@ Column {
         id: dateLabel
         anchors.horizontalCenter: parent.horizontalCenter
         color: root.palette.text
-        font.pointSize: root.font.pointSize * 2
+        font.pointSize: root.font.pointSize * 1.618
         renderType: Text.QtRendering
         function updateTime() {
             text = new Date().toLocaleDateString(Qt.locale(config.Locale), config.DateFormat == "short" ? Locale.ShortFormat : config.DateFormat !== "" ? config.DateFormat : Locale.LongFormat)

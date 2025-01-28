@@ -27,7 +27,7 @@ Pane {
     palette.window: config.BackgroundColor
 
     font.family: config.Font
-    font.pointSize: config.FontSize !== "" ? config.FontSize : parseInt(height / 80)
+    font.pointSize: config.FontSize !== "" ? config.FontSize : parseInt(root.height / 76.4)
     focus: true
 
     property bool leftleft: config.HaveFormBackground == "true" &&
@@ -81,7 +81,7 @@ Pane {
             id: form
 
             height: virtualKeyboard.state == "visible" ? parent.height - virtualKeyboard.implicitHeight : parent.height
-            width: parent.width / 2.5
+            width: parent.width * 0.3819
             anchors.horizontalCenter: config.FormPosition == "center" ? parent.horizontalCenter : undefined
             anchors.left: config.FormPosition == "left" ? parent.left : undefined
             anchors.right: config.FormPosition == "right" ? parent.right : undefined
@@ -100,7 +100,7 @@ Pane {
             contentItem: Text {
                 text: config.TranslateVirtualKeyboardButton || "Virtual Keyboard"
                 color: parent.visualFocus ? palette.highlight : palette.text
-                font.pointSize: root.font.pointSize * 0.8
+                font.pointSize: root.font.pointSize * .7640
             }
             background: Rectangle {
                 id: vkbbg

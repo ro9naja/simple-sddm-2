@@ -18,7 +18,7 @@ Column {
     Item {
         // change also in selectSession
         height: root.font.pointSize * 2
-        width: parent.width / 2
+        width: parent.width * .618
         anchors.horizontalCenter: parent.horizontalCenter
         Label {
             id: errorMessage
@@ -62,7 +62,7 @@ Column {
         id: usernameField
 
         height: root.font.pointSize * 4.5
-        width: parent.width / 2
+        width: parent.width * 0.618
         anchors.horizontalCenter: parent.horizontalCenter
 
         ComboBox {
@@ -121,7 +121,7 @@ Column {
                     enabled: false
                     icon.color: root.palette.text
                     icon.source: Qt.resolvedUrl("../Assets/User.svg")
-                    
+
                     background: Rectangle {
                         color: "transparent"
                         border.color: "transparent"
@@ -251,14 +251,14 @@ Column {
             ]
         }
     }
-    
+
     Item {
         id: passwordField
 
         height: root.font.pointSize * 4.5
-        width: parent.width / 2
+        width: parent.width * .618
         anchors.horizontalCenter: parent.horizontalCenter
-        
+
         Button {
             id: showPassword
             z: 2
@@ -379,18 +379,18 @@ Column {
                     duration: 150
                 }
             }
-        ]        
+        ]
     }
 
     Item {
         id: login
         // important
         height: root.font.pointSize * 9
-        width: parent.width / 2
+        width: parent.width * .618
         anchors.horizontalCenter: parent.horizontalCenter
         visible: config.HideLoginButton == "true"  ? false : true
         Button {
-            
+
             id: loginButton
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
